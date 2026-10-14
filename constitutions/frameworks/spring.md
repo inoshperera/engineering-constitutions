@@ -24,7 +24,6 @@ Provide Spring-specific guidance for Java services.
 
 - Configuration properties MUST be typed and documented.
 - Controllers MUST keep authorization and validation behavior explicit.
-- Controllers MUST preserve existing route paths, HTTP methods, request and response shapes, and status-code semantics unless an approved API migration exists.
 - Dependency injection MUST avoid hidden global state.
 - Transaction boundaries MUST be clear for data-changing operations.
 - Service-to-service clients MUST use framework-managed clients with configurable endpoints, timeouts, authentication behavior, and observability hooks.
