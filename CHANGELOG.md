@@ -6,7 +6,7 @@ All notable constitution changes are documented here.
 
 - Expanded mandatory Java guidance for JDBC value binding, dynamic SQL identifier validation, bounded large-data retrieval, deterministic resource cleanup, and global mutable state lifecycle control.
 - Expanded mandatory Spring guidance for service clients and scheduled job configuration.
-- Clarified universal API compatibility guidance for routes, HTTP methods, payload shapes, and status-code semantics.
+- Added API compatibility obligations for routes, HTTP methods, payload shapes, and status-code semantics.
 
 ## 1.0.0 - Initial Release
 
