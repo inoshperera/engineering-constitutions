@@ -2,7 +2,7 @@
 id: language.java
 title: Java
 category: language
-version: 1.0.0
+version: 1.0.1
 status: active
 owners:
   - java-platform
