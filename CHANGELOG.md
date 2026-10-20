@@ -2,8 +2,11 @@
 
 All notable constitution changes are documented here.
 
-## Unreleased
+## 1.0.1 - Unreleased
 
+- Expanded mandatory Java guidance for JDBC value binding, dynamic SQL identifier validation, bounded large-data retrieval, deterministic resource cleanup, and global mutable state lifecycle control.
+- Expanded mandatory Spring guidance for service clients and scheduled job configuration.
+- Added API compatibility obligations for routes, HTTP methods, payload shapes, and status-code semantics.
 - Added the `framework.react-native` constitution module for bare React Native applications.
 - Added a sample React Native project configuration.
 

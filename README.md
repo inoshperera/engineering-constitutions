@@ -46,7 +46,7 @@ Projects can add `.entgra-constitution.yml` at the project root:
 schema_version: 1
 
 constitution:
-  release: "1.0.0"
+  release: "1.0.1"
 
 project:
   name: "sample-java-service"

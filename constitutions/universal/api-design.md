@@ -22,7 +22,7 @@ Define expectations for stable, understandable, and secure APIs.
 ## Mandatory requirements
 
 - APIs MUST use consistent resource naming and documented versioning.
-- Existing clients MUST remain compatible unless an approved migration exists.
+- Existing clients MUST remain compatible, including existing route paths, HTTP methods, request and response shapes, and status-code semantics, unless an approved migration exists.
 - Error responses MUST be structured, stable, and actionable.
 - Collection APIs MUST define pagination behavior.
 - Mutating APIs SHOULD support idempotency where retries are expected.
