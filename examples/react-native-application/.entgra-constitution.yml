@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/entgra/engineering-constitutions/main/schema/entgra-constitution.schema.json
+schema_version: 1
+
+constitution:
+  release: "1.0.0"
+
+project:
+  name: "sample-react-native-application"
+  description: "Example bare React Native mobile application for iOS and Android"
+  repository: "https://github.com/entgra/sample-react-native-application"
+
+modules:
+  required:
+    - universal.engineering-principles
+    - universal.code-quality
+    - universal.testing
+    - universal.documentation
+    - universal.security
+    - universal.dependency-management
+    - universal.observability
+    - universal.ai-assisted-development
+    - language.typescript
+    - framework.react
+    - framework.react-native
+  optional:
+    - language.kotlin
+    - platform.github-actions
+
+project_instructions:
+  path: "PROJECT_INSTRUCTIONS.md"

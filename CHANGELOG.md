@@ -2,6 +2,11 @@
 
 All notable constitution changes are documented here.
 
+## Unreleased
+
+- Added the `framework.react-native` constitution module for bare React Native applications.
+- Added a sample React Native project configuration.
+
 ## 1.0.0 - Initial Release
 
 - Added the initial engineering constitution repository structure.
