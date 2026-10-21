@@ -9,6 +9,8 @@ All notable constitution changes are documented here.
 - Added API compatibility obligations for routes, HTTP methods, payload shapes, and status-code semantics.
 - Added the `framework.react-native` constitution module for bare React Native applications.
 - Added a sample React Native project configuration.
+- Added universal requirements for tracing changes to accepted requirements, recording human approvals, linking evidence of executed tests, and recording documentation impact.
+- Expanded the React Native PR checklist with requirement, test-execution evidence, documentation-impact, and human-approval items.
 
 ## 1.0.0 - Initial Release
 

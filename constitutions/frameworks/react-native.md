@@ -469,11 +469,18 @@ Each React Native project records these in `PROJECT_INSTRUCTIONS.md` at project 
 - [ ] MVVM respected: View renders only, ViewModel returns `{ state, actions }`, no View imports from the Model.
 - [ ] Strict types, no `any`; boundary data validated with Zod.
 - [ ] No hooks-lint errors; every subscribing effect cleans up.
-- [ ] Unit/component tests added; Maestro flow added or updated for critical journeys.
+- [ ] Linked accepted requirements: issue or specification stating the problem and affected users, expected behavior and acceptance criteria, error, offline, and permission cases, and iOS/Android differences, with who accepted it and which version (`universal.engineering-principles`).
+- [ ] Tests added: unit/component tests, and a Maestro flow added or updated for critical journeys.
+- [ ] Tests executed: linked CI run or test report naming the commands or procedures run, the commit or app build, the iOS/Android versions and device or simulator used, which checks passed, failed, were skipped, or could not run, and remaining limitations with an owner (`universal.testing`).
 - [ ] Native, permission, and dependency changes listed in the PR description.
 - [ ] No secrets, PII, or `console.log` added.
 - [ ] Every new source file has the Entgra license header.
+- [ ] Documentation impact: linked updated specifications, API contracts, setup instructions, or release guidance, or the reason no update is needed (`universal.documentation`).
+- [ ] Independent human reviewer accepted the code and test evidence.
+- [ ] Team lead accepted the delivered user behavior, with stakeholder acceptance where required.
+- [ ] Release owner approved the exact app build being released, including its store or MDM rollout and recovery plan.
+- [ ] Each approval records the approver, decision, date, build/version, and evidence; AI reviews and CI do not replace it, and material changes after approval are re-approved (`universal.engineering-principles`).
 
 ## Verification
 
-Reviewers check both-platform evidence, MVVM import boundaries, boundary validation, async and offline state handling, accessibility, secure storage choices, native and permission changes, license headers, unit and Maestro coverage for changed journeys, and CI results for type-check, lint, tests, and native builds.
+Reviewers check both-platform evidence, MVVM import boundaries, boundary validation, async and offline state handling, accessibility, secure storage choices, native and permission changes, license headers, unit and Maestro coverage for changed journeys, CI results for type-check, lint, tests, and native builds, linked requirements, evidence of tests executed on named iOS and Android targets, documentation impact, and recorded human approvals.
