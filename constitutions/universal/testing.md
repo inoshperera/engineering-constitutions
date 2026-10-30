@@ -26,6 +26,9 @@ Define minimum expectations for proving software behavior before release.
 - Assertions MUST verify meaningful behavior, including failure paths.
 - Tests MUST NOT exist only to increase coverage numbers.
 - Required test commands MUST be documented for contributors.
+- Changes MUST link evidence of tests actually executed, such as a CI run or test report, stating the commands or procedures run, the commit or build tested, the environment, which checks passed, failed, were skipped, or could not run, and any remaining limitations with an owner to resolve them.
+- Tests added and tests executed and passed MUST be reported separately.
+- Screenshots and recordings MAY support test evidence but MUST NOT replace test results or acceptance checks.
 
 ## Recommended practices
 
@@ -35,4 +38,4 @@ Define minimum expectations for proving software behavior before release.
 
 ## Verification
 
-Reviewers verify relevant test coverage, run documented test commands, and inspect failure-path assertions for changed behavior.
+Reviewers verify relevant test coverage, check the linked evidence of executed tests against the commit or build under review, run documented test commands, and inspect failure-path assertions for changed behavior.

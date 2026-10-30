@@ -24,6 +24,7 @@ Ensure project knowledge remains discoverable and current.
 - Significant architecture decisions MUST be documented with context and trade-offs.
 - Public APIs, configuration, upgrade steps, and migrations MUST be documented.
 - Documentation updates MUST be included with implementation changes that alter behavior.
+- PRs MUST link updated specifications, API contracts, setup instructions, or release guidance where affected, or record why no update is needed.
 - Comments SHOULD explain why code exists rather than restating what code does.
 
 ## Recommended practices
@@ -34,4 +35,4 @@ Ensure project knowledge remains discoverable and current.
 
 ## Verification
 
-Reviewers verify that changed behavior, configuration, APIs, and migration steps are reflected in documentation in the same change.
+Reviewers verify that changed behavior, configuration, APIs, and migration steps are reflected in documentation in the same change, or that the recorded reason for no update holds.
